@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login </title>
+    <link rel="icon" href="img/logo.svg">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <main>
+        <div id="container">
+            <h1 class="title"> Sign In </h1>
+            <form name="login" action="../index.html" class="form">
+                <label for="email" class="label-email"> Email Adress: </label>
+                <input type="email" class="email" id = "user-email">
+                <label for="password" class="label-password"> Password: </label>
+                <input type="password" class="password">
+                <div class="text">
+                    <input type="checkbox" class="showPswd">
+                    <label for="showPswd" class="label-showPswd"> Show Password </label>
+                    <label for="forget-password" id="forget-password"> <a href="change-password.html" class="forget-password-link"> Forget Password? </a></label>
+                </div>
+                <button type="submit" class="button" id="login"> Sign In </button>
+
+                <span class="new__user"> I'm a new user. <a href="register.html" class="new__user-link"> Sign Up</a></span>
+            </form>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/367a536935.js" crossorigin="anonymous"></script>
+    <Script src="js/login.js"></Script>
+</body>
+
+</html>
